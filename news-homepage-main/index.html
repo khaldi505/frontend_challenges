@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <title>News homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <!-- reset css -->
+  <link rel="stylesheet" href="./style/reset.css">
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <div class="bodyContainer">
+    <!-- Nav section -->
+    <nav class="navbar">
+      <img src="./assets/images/logo.svg" srcset="" alt="Logo" id="logo" />
+      <div class="navItemsContainer">
+        <label for="menuBtn">
+          <div class="burgerstick"><span></span></div>
+          <div class="burgerstick"><span></span></div>
+          <div class="burgerstick"><span></span></div>
+        </label>
+        <input type="checkbox" id="menuBtn"/>
+        <div class="navlinks">
+          <a class="navlink" href="#home">Home</a>
+          <a class="navlink" href="#new">New</a>
+          <a class="navlink" href="#popular">Popular</a>
+          <a class="navlink" href="#trending">Trending</a>
+          <a class="navlink" href="#categories">Categories</a>
+        </div>
+     </div>
+    </nav>
+    <div class="hero-container">
+    <div class="container">
+    <img class="heroBg" src="./assets/images/image-web-3-mobile.jpg" />
+
+    <h1 id="title">The Bright Future of Web 3.0?</h1>
+    <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+    But is it really fulfilling its promise?</p>
+    <button>Read more</button>
+    </div>
+      <div class="sideBarContainer">
+        <h2 id="sideBartitle">New</h2>
+            <div class="sideBarCards">
+              <div class="sideBarCard">
+                <h4>Hydrogen VS Electric Cars</h4>
+                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+              </div>
+              <div class="sideBarCard">
+                <h4>The Downsides of AI Artistry</h4>
+                <p>What are the possible adverse effects of on-demand AI image generation?</p>
+              </div>
+              <div class="sideBarCard last">
+                <h4>Is VC Funding Drying Up?</h4>
+                <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+              </div>
+            </div>
+      </div>
+    </div>
+    <div class="cards-section">
+          <div class="card">
+            <img src="./assets/images/image-retro-pcs.jpg" alt="card image" class="cardImage">
+            <div class="cardBody">
+              <h3 class="cardNumber">01</h3>
+              <h6 class="cardTitle">Reviving Retro PCs</h6>
+              <p class="cardParagraph">What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/images/image-top-laptops.jpg" alt="card image" class="cardImage">
+            <div class="cardBody">
+              <h3 class="cardNumber">02</h3>
+              <h6 class="cardTitle">Top 10 Laptops of 2022</h6>
+              <p class="cardParagraph">Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/images/image-gaming-growth.jpg" alt="card image" class="cardImage">
+            <div class="cardBody">
+              <h3 class="cardNumber">03</h3>
+              <h6 class="cardTitle">The Growth of Gaming</h6>
+              <p class="cardParagraph">How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </div>
+  </div>
+  </div>
+</body>
+</html>
